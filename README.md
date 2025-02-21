@@ -4,10 +4,10 @@ Welcome to the OpenSSL Project
 [![openssl logo]][www.openssl.org]
 
 [![github actions ci badge]][github actions ci]
-![Nightly OS Zoo ci badge](https://github.com/openssl/openssl/actions/workflows/os-zoo.yml/badge.svg)
-![Provider Compatibility](https://github.com/openssl/openssl/actions/workflows/provider-compatibility.yml/badge.svg)
-![Quic Interop](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml/badge.svg)
-![Daily checks](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml/badge.svg)
+![Nightly OS Zoo ci badge](https://github.com/abdulrahman305/openssl/actions/workflows/os-zoo.yml/badge.svg)
+![Provider Compatibility](https://github.com/abdulrahman305/openssl/actions/workflows/provider-compatibility.yml/badge.svg)
+![Quic Interop](https://github.com/abdulrahman305/openssl/actions/workflows/run_quic_interop.yml/badge.svg)
+![Daily checks](https://github.com/abdulrahman305/openssl/actions/workflows/run-checker-daily.yml/badge.svg)
 
 OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
 for the TLS (formerly SSL), DTLS and QUIC (currently client side only)
@@ -94,7 +94,7 @@ which is updated automatically from the former on every commit.
 A local copy of the Git repository can be obtained by cloning it from
 the GitHub mirror using
 
-    git clone https://github.com/openssl/openssl.git
+    git clone https://github.com/abdulrahman305/openssl.git
 
 If you intend to contribute to OpenSSL, either to fix bugs or contribute
 new features, you need to fork the GitHub mirror and clone your public fork
@@ -210,8 +210,8 @@ All rights reserved.
     <https://www.openssl.org>
     "OpenSSL Homepage"
 
-[github.com/openssl/openssl]:
-    <https://github.com/openssl/openssl>
+[github.com/abdulrahman305/openssl]:
+    <https://github.com/abdulrahman305/openssl>
     "OpenSSL GitHub Mirror"
 
 [wiki.openssl.org]:
@@ -246,11 +246,11 @@ All rights reserved.
     "OpenSSL Logo"
 
 [github actions ci badge]:
-    <https://github.com/openssl/openssl/workflows/GitHub%20CI/badge.svg>
+    <https://github.com/abdulrahman305/openssl/workflows/GitHub%20CI/badge.svg>
     "GitHub Actions CI Status"
 
 [github actions ci]:
-    <https://github.com/openssl/openssl/actions?query=workflow%3A%22GitHub+CI%22>
+    <https://github.com/abdulrahman305/openssl/actions?query=workflow%3A%22GitHub+CI%22>
     "GitHub Actions CI"
 
 [appveyor badge]:
@@ -258,5 +258,5 @@ All rights reserved.
     "AppVeyor Build Status"
 
 [appveyor jobs]:
-    <https://ci.appveyor.com/project/openssl/openssl/branch/master>
+    <https://ci.appveyor.com/project/abdulrahman305/openssl/branch/master>
     "AppVeyor Jobs"
