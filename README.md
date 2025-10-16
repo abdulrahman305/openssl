@@ -1,6 +1,5 @@
 Welcome to the OpenSSL Project
-==============================
-
+=======================
 [![openssl logo]][www.openssl.org]
 
 [![github actions ci badge]][github actions ci]
@@ -9,6 +8,10 @@ Welcome to the OpenSSL Project
 [![Quic Interop](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run_quic_interop.yml)
 [![Daily checks](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml/badge.svg)](https://github.com/openssl/openssl/actions/workflows/run-checker-daily.yml)
 [![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=openssl)](https://insights.linuxfoundation.org/project/openssl)
+![Nightly OS Zoo ci badge](https://github.com/abdulrahman305/openssl/actions/workflows/os-zoo.yml/badge.svg)
+![Provider Compatibility](https://github.com/abdulrahman305/openssl/actions/workflows/provider-compatibility.yml/badge.svg)
+![Quic Interop](https://github.com/abdulrahman305/openssl/actions/workflows/run_quic_interop.yml/badge.svg)
+![Daily checks](https://github.com/abdulrahman305/openssl/actions/workflows/run-checker-daily.yml/badge.svg)
 
 OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
 for the TLS (formerly SSL), DTLS and QUIC protocols.
@@ -23,8 +26,7 @@ and Tim J. Hudson.
 The official Home Page of the OpenSSL Project is [www.openssl.org].
 
 Table of Contents
-=================
-
+==========
  - [Overview](#overview)
  - [Download](#download)
  - [Build and Install](#build-and-install)
@@ -35,8 +37,7 @@ Table of Contents
  - [Legalities](#legalities)
 
 Overview
-========
-
+=
 The OpenSSL toolkit includes:
 
 - **libssl**
@@ -61,8 +62,7 @@ The OpenSSL toolkit includes:
   - and more...
 
 Download
-========
-
+=
 For Production Use
 ------------------
 
@@ -94,7 +94,7 @@ which is updated automatically from the former on every commit.
 A local copy of the Git repository can be obtained by cloning it from
 the GitHub mirror using
 
-    git clone https://github.com/openssl/openssl.git
+    git clone https://github.com/abdulrahman305/openssl.git
 
 If you intend to contribute to OpenSSL, either to fix bugs or contribute
 new features, you need to fork the GitHub mirror and clone your public fork
@@ -106,8 +106,7 @@ This is necessary because all development of OpenSSL nowadays is done via
 GitHub pull requests. For more details, see [Contributing](#contributing).
 
 Build and Install
-=================
-
+==========
 After obtaining the Source, have a look at the [INSTALL](INSTALL.md) file for
 detailed instructions about building and installing OpenSSL. For some
 platforms, the installation instructions are amended by a platform specific
@@ -125,8 +124,7 @@ Specific notes on upgrading to OpenSSL 3.x from previous versions can be found
 in the [ossl-guide-migration(7ossl)] manual page.
 
 Documentation
-=============
-
+======
 README Files
 ------------
 
@@ -169,7 +167,6 @@ Wiki
 There is a [GitHub Wiki] which is currently not very active.
 
 License
-=======
 
 OpenSSL is licensed under the Apache License 2.0, which means that
 you are free to get and use it for commercial and non-commercial
@@ -178,27 +175,23 @@ purposes as long as you fulfill its conditions.
 See the [LICENSE.txt](LICENSE.txt) file for more details.
 
 Support
-=======
 
 There are various ways to get in touch. The correct channel depends on
 your requirement. See the [SUPPORT](SUPPORT.md) file for more details.
 
 Contributing
-============
-
+=====
 If you are interested and willing to contribute to the OpenSSL project,
 please take a look at the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 Legalities
-==========
-
+===
 A number of nations restrict the use or export of cryptography. If you are
 potentially subject to such restrictions, you should seek legal advice before
 attempting to develop or distribute cryptographic code.
 
 Copyright
-=========
-
+==
 Copyright (c) 1998-2025 The OpenSSL Project Authors
 
 Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson
@@ -211,8 +204,8 @@ All rights reserved.
     <https://www.openssl.org>
     "OpenSSL Homepage"
 
-[github.com/openssl/openssl]:
-    <https://github.com/openssl/openssl>
+[github.com/abdulrahman305/openssl]:
+    <https://github.com/abdulrahman305/openssl>
     "OpenSSL GitHub Mirror"
 
 [GitHub Wiki]:
@@ -247,11 +240,12 @@ All rights reserved.
     "OpenSSL Logo"
 
 [github actions ci badge]:
-    <https://github.com/openssl/openssl/workflows/GitHub%20CI/badge.svg>
+    <https://github.com/abdulrahman305/openssl/workflows/GitHub%20CI/badge.svg>
     "GitHub Actions CI Status"
 
 [github actions ci]:
     <https://github.com/openssl/openssl/actions/workflows/ci.yml>
+    <https://github.com/abdulrahman305/openssl/actions?query=workflow%3A%22GitHub+CI%22>
     "GitHub Actions CI"
 
 [appveyor badge]:
@@ -259,5 +253,5 @@ All rights reserved.
     "AppVeyor Build Status"
 
 [appveyor jobs]:
-    <https://ci.appveyor.com/project/openssl/openssl/branch/master>
+    <https://ci.appveyor.com/project/abdulrahman305/openssl/branch/master>
     "AppVeyor Jobs"
